@@ -34,23 +34,21 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${fredoka.variable} antialiased`}
       >
-        <body>
-          <ThemeWrapper>
-            <Box
-              sx={{
-                display: "flex",
-                flexDirection: "column",
-                minHeight: "100vh",
-              }}
-            >
-              <Navbar />
-              <Box component="main" sx={{ flexGrow: 1 }}>
-                {children}
-              </Box>
-              <Footer />
+        <ThemeWrapper>
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              minHeight: "100vh",
+            }}
+          >
+            <Navbar />
+            <Box component="main" sx={{ flexGrow: 1 }}>
+              {children}
             </Box>
-          </ThemeWrapper>
-        </body>
+            <Footer />
+          </Box>
+        </ThemeWrapper>
       </body>
     </html>
   );

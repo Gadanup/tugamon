@@ -13,18 +13,18 @@ export default function SobreMundo() {
       sx={{
         position: "relative",
         backgroundColor: "#FAF1D0",
-        backgroundImage: "url(/patterns/azulejo-fade.png)",
+        backgroundImage: "url(/patterns/azulejo3.png)",
         backgroundRepeat: "repeat",
         backgroundSize: "180px",
-        py: { xs: 8, md: 12 },
+        py: { xs: 6, md: 8 },
         px: { xs: 2, sm: 4, md: 10 },
         overflow: "hidden",
       }}
     >
       {/* Tugamons flutuantes */}
       <Image
-        src="/tugamons/nautinho.png"
-        alt="Sardamon"
+        src="/tugamons/no-background/004-Nautinho.png"
+        alt="Nautinho"
         width={80}
         height={80}
         style={{
@@ -36,7 +36,7 @@ export default function SobreMundo() {
         }}
       />
       <Image
-        src="/tugamons/galico.png"
+        src="/tugamons/no-background/001-galico.png"
         alt="Guitamon"
         width={80}
         height={80}
@@ -89,7 +89,7 @@ export default function SobreMundo() {
             <Box
               sx={{
                 backgroundColor: "#fffef4",
-                backgroundImage: "url(/patterns/azulejo-fade2.png)",
+                backgroundImage: "url(/patterns/azulejo-branco.png)",
                 backgroundRepeat: "repeat",
                 border: "3px solid #005f9e",
                 borderRadius: 4,

@@ -42,6 +42,7 @@ export default function Navbar() {
         <Link key={link.href} href={link.href} passHref>
           <Typography
             sx={{
+              fontFamily: "var(--font-fredoka)", // <- garante que é Fredoka
               color: "white",
               textDecoration: "none",
               fontWeight: "bold",

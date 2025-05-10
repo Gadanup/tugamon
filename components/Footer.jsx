@@ -24,7 +24,6 @@ export default function Footer() {
         px: 4,
         pt: 6,
         pb: 3,
-        mt: 8,
       }}
     >
       <Grid container spacing={4} justifyContent="space-between">

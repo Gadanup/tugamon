@@ -18,7 +18,9 @@ export default function HeroBanner() {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        mt: { xs: 0, md: 0 },
+        mt: 0,
+        mb: 0, // <-- garante que não há margem inferior
+        pb: 0, // <-- se usaste padding interno
         px: 2,
       }}
     >
